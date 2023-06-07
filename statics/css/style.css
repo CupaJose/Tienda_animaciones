@@ -1,0 +1,747 @@
+@keyframes pelota {
+        0%{
+            transform: translateX(0rem);
+        }
+        90%{
+            width: 5rem;
+            background-image: url("../imagenes/Pelota-fuego.jpg");
+        }
+        100%{
+            transform: translateX(24rem);
+            width: 5rem;
+            background-image: url("../imagenes/Pelota-fuego.jpg");
+        }
+}
+@keyframes Sayaka-death {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(25deg);
+    }
+    100%{
+        transform: rotate(-25deg);
+    }
+}
+@keyframes Owada-execution {
+    0%{
+        transform: translateX(0rem);
+    }
+    50%{
+        left: -2rem;
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(3600deg);
+    }
+}
+@keyframes Celes-execution {
+    0%{
+        transform: translateX(0rem);
+    }
+    2%{
+        background-image: url("../imagenes/Celes-execution\ \(2\).jpg");
+        background-size: cover;
+    }
+    4%{
+        background-image: url("../imagenes/Celes-execution\ \(3\).jpg");
+        background-size: cover;
+    }
+    6%{
+        background-image: url("../imagenes/Celes-execution\ \(4\).jpg");
+        background-size: cover;
+    }
+    8%{
+        background-image: url("../imagenes/Celes-execution\ \(5\).jpg");
+        background-size: cover;
+    }
+    10%{
+        background-image: url("../imagenes/Celes-execution\ \(6\).jpg");
+        background-size: cover;
+    }
+    12%{
+        background-image: url("../imagenes/Celes-execution\ \(7\).jpg");
+        background-size: cover;
+    }
+    14%{
+        background-image: url("../imagenes/Celes-execution\ \(8\).jpg");
+        background-size: cover;
+    }
+    16%{
+        background-image: url("../imagenes/Celes-execution\ \(9\).jpg");
+        background-size: cover;
+    }
+    18%{
+        background-image: url("../imagenes/Celes-execution\ \(10\).jpg");
+        background-size: cover;
+    }
+    20%{
+        background-image: url("../imagenes/Celes-execution\ \(11\).jpg");
+        background-size: cover;
+    }
+    22%{
+        background-image: url("../imagenes/Celes-execution\ \(12\).jpg");
+        background-size: cover;
+    }
+    24%{
+        background-image: url("../imagenes/Celes-execution\ \(13\).jpg");
+        background-size: cover;
+    }
+    26%{
+        background-image: url("../imagenes/Celes-execution\ \(14\).jpg");
+        background-size: cover;
+    }
+    28%{
+        background-image: url("../imagenes/Celes-execution\ \(15\).jpg");
+        background-size: cover;
+    }
+    30%{
+        background-image: url("../imagenes/Celes-execution\ \(16\).jpg");
+        background-size: cover;
+    }
+    32%{
+        background-image: url("../imagenes/Celes-execution\ \(17\).jpg");
+        background-size: cover;
+    }
+    34%{
+        background-image: url("../imagenes/Celes-execution\ \(18\).jpg");
+        background-size: cover;
+    }
+    36%{
+        background-image: url("../imagenes/Celes-execution\ \(19\).jpg");
+        background-size: cover;
+    }
+    38%{
+        background-image: url("../imagenes/Celes-execution\ \(20\).jpg");
+        background-size: cover;
+    }
+    40%{
+        background-image: url("../imagenes/Celes-execution\ \(21\).jpg");
+        background-size: cover;
+    }
+    42%{
+        background-image: url("../imagenes/Celes-execution\ \(22\).jpg");
+        background-size: cover;
+    }
+    44%{
+        background-image: url("../imagenes/Celes-execution\ \(23\).jpg");
+        background-size: cover;
+    }
+    46%{
+        background-image: url("../imagenes/Celes-execution\ \(24\).jpg");
+        background-size: cover;
+    }
+    48%{
+        background-image: url("../imagenes/Celes-execution\ \(25\).jpg");
+        background-size: cover;
+    }
+    50%{
+        background-image: url("../imagenes/Celes-execution\ \(26\).jpg");
+        background-size: cover;
+    }
+    52%{
+        background-image: url("../imagenes/Celes-execution\ \(27\).jpg");
+        background-size: cover;
+    }
+    54%{
+        background-image: url("../imagenes/Celes-execution\ \(28\).jpg");
+        background-size: cover;
+    }
+    56%{
+        background-image: url("../imagenes/Celes-execution\ \(29\).jpg");
+        background-size: cover;
+    }
+    58%{
+        background-image: url("../imagenes/Celes-execution\ \(30\).jpg");
+        background-size: cover;
+    }
+    60%{
+        background-image: url("../imagenes/Celes-execution\ \(31\).jpg");
+        background-size: cover;
+    }
+    62%{
+        background-image: url("../imagenes/Celes-execution\ \(32\).jpg");
+        background-size: cover;
+    }
+    64%{
+        background-image: url("../imagenes/Celes-execution\ \(33\).jpg");
+        background-size: cover;
+    }
+    66%{
+        background-image: url("../imagenes/Celes-execution\ \(34\).jpg");
+        background-size: cover;
+    }
+    68%{
+        background-image: url("../imagenes/Celes-execution\ \(35\).jpg");
+        background-size: cover;
+    }
+    70%{
+        background-image: url("../imagenes/Celes-execution\ \(36\).jpg");
+        background-size: cover;
+    }
+    72%{
+        background-image: url("../imagenes/Celes-execution\ \(37\).jpg");
+        background-size: cover;
+    }
+}
+@keyframes Mukuro-death {
+    0%{
+        transform: translate(0rem);
+    }
+    6%{
+        background-image: url("../imagenes/Mukuro-death\ \(2\).jpg");
+        background-size: cover;
+    }
+    12%{
+        background-image: url("../imagenes/Mukuro-death\ \(3\).jpg");
+        background-size: cover;
+    }
+    18%{
+        background-image: url("../imagenes/Mukuro-death\ \(4\).jpg");
+        background-size: cover;
+    }
+    24%{
+        background-image: url("../imagenes/Mukuro-death\ \(5\).jpg");
+        background-size: cover;
+    }
+    30%{
+        background-image: url("../imagenes/Mukuro-death\ \(6\).jpg");
+        background-size: cover;
+    }
+    36%{
+        background-image: url("../imagenes/Mukuro-death\ \(7\).jpg");
+        background-size: cover;
+    }
+    42%{
+        background-image: url("../imagenes/Mukuro-death\ \(8\).jpg");
+        background-size: cover;
+    }
+    48%{
+        background-image: url("../imagenes/Mukuro-death\ \(9\).jpg");
+        background-size: cover;
+    }
+    54%{
+        background-image: url("../imagenes/Mukuro-death\ \(10\).jpg");
+        background-size: cover;
+    }
+    60%{
+        background-image: url("../imagenes/Mukuro-death\ \(11\).jpg");
+        background-size: cover;
+    }
+    66%{
+        background-image: url("../imagenes/Mukuro-death\ \(12\).jpg");
+        background-size: cover;
+    }
+    72%{
+        background-image: url("../imagenes/Mukuro-death\ \(13\).jpg");
+        background-size: cover;
+    }
+    78%{
+        background-image: url("../imagenes/Mukuro-death\ \(14\).jpg");
+        background-size: cover;
+    }
+    84%{
+        background-image: url("../imagenes/Mukuro-death\ \(15\).jpg");
+        background-size: cover;
+    }
+    90%{
+        background-image: url("../imagenes/Mukuro-death\ \(16\).jpg");
+        background-size: cover;
+    }
+}
+@keyframes Junko-execution {
+    0%{
+        transform: translateX(0rem);
+    }
+    2%{
+        background-image: url("../imagenes/Junko-execution\ \(2\).jpg");
+        background-size: cover;
+    }
+    4%{
+        background-image: url("../imagenes/Junko-execution\ \(3\).jpg");
+        background-size: cover;
+    }
+    6%{
+        background-image: url("../imagenes/Junko-execution\ \(4\).jpg");
+        background-size: cover;
+    }
+    8%{
+        background-image: url("../imagenes/Junko-execution\ \(5\).jpg");
+        background-size: cover;
+    }
+    10%{
+        background-image: url("../imagenes/Junko-execution\ \(6\).jpg");
+        background-size: cover;
+    }
+    12%{
+        background-image: url("../imagenes/Junko-execution\ \(7\).jpg");
+        background-size: cover;
+    }
+    14%{
+        background-image: url("../imagenes/Junko-execution\ \(8\).jpg");
+        background-size: cover;
+    }
+    16%{
+        background-image: url("../imagenes/Junko-execution\ \(9\).jpg");
+        background-size: cover;
+    }
+    18%{
+        background-image: url("../imagenes/Junko-execution\ \(10\).jpg");
+        background-size: cover;
+    }
+    20%{
+        background-image: url("../imagenes/Junko-execution\ \(11\).jpg");
+        background-size: cover;
+    }
+    22%{
+        background-image: url("../imagenes/Junko-execution\ \(12\).jpg");
+        background-size: cover;
+    }
+    24%{
+        background-image: url("../imagenes/Junko-execution\ \(13\).jpg");
+        background-size: cover;
+    }
+    26%{
+        background-image: url("../imagenes/Junko-execution\ \(14\).jpg");
+        background-size: cover;
+    }
+    28%{
+        background-image: url("../imagenes/Junko-execution\ \(15\).jpg");
+        background-size: cover;
+    }
+    30%{
+        background-image: url("../imagenes/Junko-execution\ \(16\).jpg");
+        background-size: cover;
+    }
+    32%{
+        background-image: url("../imagenes/Junko-execution\ \(17\).jpg");
+        background-size: cover;
+    }
+    34%{
+        background-image: url("../imagenes/Junko-execution\ \(18\).jpg");
+        background-size: cover;
+    }
+    36%{
+        background-image: url("../imagenes/Junko-execution\ \(19\).jpg");
+        background-size: cover;
+    }
+    38%{
+        background-image: url("../imagenes/Junko-execution\ \(20\).jpg");
+        background-size: cover;
+    }
+    40%{
+        background-image: url("../imagenes/Junko-execution\ \(21\).jpg");
+        background-size: cover;
+    }
+    42%{
+        background-image: url("../imagenes/Junko-execution\ \(22\).jpg");
+        background-size: cover;
+    }
+    44%{
+        background-image: url("../imagenes/Junko-execution\ \(23\).jpg");
+        background-size: cover;
+    }
+    46%{
+        background-image: url("../imagenes/Junko-execution\ \(24\).jpg");
+        background-size: cover;
+    }
+    48%{
+        background-image: url("../imagenes/Junko-execution\ \(25\).jpg");
+        background-size: cover;
+    }
+    50%{
+        background-image: url("../imagenes/Junko-execution\ \(26\).jpg");
+        background-size: cover;
+    }
+    52%{
+        background-image: url("../imagenes/Junko-execution\ \(27\).jpg");
+        background-size: cover;
+    }
+    54%{
+        background-image: url("../imagenes/Junko-execution\ \(28\).jpg");
+        background-size: cover;
+    }
+    56%{
+        background-image: url("../imagenes/Junko-execution\ \(29\).jpg");
+        background-size: cover;
+    }
+    58%{
+        background-image: url("../imagenes/Junko-execution\ \(30\).jpg");
+        background-size: cover;
+    }
+    60%{
+        background-image: url("../imagenes/Junko-execution\ \(31\).jpg");
+        background-size: cover;
+    }
+    62%{
+        background-image: url("../imagenes/Junko-execution\ \(32\).jpg");
+        background-size: cover;
+    }
+    64%{
+        background-image: url("../imagenes/Junko-execution\ \(33\).jpg");
+        background-size: cover;
+    }
+    66%{
+        background-image: url("../imagenes/Junko-execution\ \(34\).jpg");
+        background-size: cover;
+    }
+    68%{
+        background-image: url("../imagenes/Junko-execution\ \(35\).jpg");
+        background-size: cover;
+    }
+    70%{
+        background-image: url("../imagenes/Junko-execution\ \(36\).jpg");
+        background-size: cover;
+    }
+    72%{
+        background-image: url("../imagenes/Junko-execution\ \(37\).jpg");
+        background-size: cover;
+    }
+    74%{
+        background-image: url("../imagenes/Junko-execution\ \(38\).jpg");
+        background-size: cover;
+    }
+    76%{
+        background-image: url("../imagenes/Junko-execution\ \(38\).jpg");
+        background-size: cover;
+    }
+    78%{
+        background-image: url("../imagenes/Junko-execution\ \(39\).jpg");
+        background-size: cover;
+    }
+    80%{
+        background-image: url("../imagenes/Junko-execution\ \(40\).jpg");
+        background-size: cover;
+    }
+    82%{
+        background-image: url("../imagenes/Junko-execution\ \(41\).jpg");
+        background-size: cover;
+    }
+    84%{
+        background-image: url("../imagenes/Junko-execution\ \(42\).jpg");
+        background-size: cover;
+    }
+    86%{
+        background-image: url("../imagenes/Junko-execution\ \(43\).jpg");
+        background-size: cover;
+    }
+    88%{
+        background-image: url("../imagenes/Junko-execution\ \(44\).jpg");
+        background-size: cover;
+    }
+    90%{
+        background-image: url("../imagenes/Junko-execution\ \(45\).jpg");
+        background-size: cover;
+    }
+    92%{
+        background-image: url("../imagenes/Junko-execution\ \(46\).jpg");
+        background-size: cover;
+    }
+}
+@keyframes Junko-bye {
+    0%{
+        transform: translate(0rem);
+    }
+    6%{
+        background-image: url("../imagenes/Junko-bye\ \(2\).jpg");
+        background-size: cover;
+    }
+    12%{
+        background-image: url("../imagenes/Junko-bye\ \(3\).jpg");
+        background-size: cover;
+    }
+    18%{
+        background-image: url("../imagenes/Junko-bye\ \(4\).jpg");
+        background-size: cover;
+    }
+    24%{
+        background-image: url("../imagenes/Junko-bye\ \(5\).jpg");
+        background-size: cover;
+    }
+    30%{
+        background-image: url("../imagenes/Junko-bye\ \(6\).jpg");
+        background-size: cover;
+    }
+    36%{
+        background-image: url("../imagenes/Junko-bye\ \(7\).jpg");
+        background-size: cover;
+    }
+    42%{
+        background-image: url("../imagenes/Junko-bye\ \(8\).jpg");
+        background-size: cover;
+    }
+    48%{
+        background-image: url("../imagenes/Junko-bye\ \(9\).jpg");
+        background-size: cover;
+    }
+    54%{
+        background-image: url("../imagenes/Junko-bye\ \(10\).jpg");
+        background-size: cover;
+    }
+    60%{
+        background-image: url("../imagenes/Junko-bye\ \(11\).jpg");
+        background-size: cover;
+    }
+    66%{
+        background-image: url("../imagenes/Junko-bye\ \(12\).jpg");
+        background-size: cover;
+    }
+    72%{
+        background-image: url("../imagenes/Junko-bye\ \(13\).jpg");
+        background-size: cover;
+    }
+    78%{
+        background-image: url("../imagenes/Junko-bye\ \(14\).jpg");
+        background-size: cover;
+    }
+    84%{
+        background-image: url("../imagenes/Junko-bye\ \(15\).jpg");
+        background-size: cover;
+    }
+    90%{
+        background-image: url("../imagenes/Junko-bye\ \(16\).jpg");
+        background-size: cover;
+    }
+    96%{
+        background-image: url("../imagenes/Junko-bye\ \(17\).jpg");
+        background-size: cover;
+    }
+}
+@keyframes Personajes {
+    0%{
+        transform: translateX(0rem);
+    }
+    100%{
+        transform: translate(24rem);
+    }
+}
+header{
+    background-image: url("../imagenes/Danganronpa-logo.jpg");
+    background-size:contain;
+    height: 5rem;
+}
+body{
+    background-color: rgb(255, 122, 217);
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2,39.05rem);
+    grid-template-rows: repeat(4,138px);
+    row-gap: 1.875rem;
+    column-gap: 1.875rem;
+    background-color: rgb(255, 122, 217);
+    position: relative;
+    top: 2rem;
+}
+#Leon{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(255, 0, 212);
+}
+article{
+    display: inline-block;
+    color: white;
+    font-size: x-large;
+}
+#Leon_execution{
+    height: 8rem;
+    width: 7rem;
+    background-image: url("../imagenes/Leon_execution.jpg");
+    background-size: cover;
+    position: relative;
+    left: 30rem;
+    top: 0.3rem;
+}
+#Pelota{
+    height: 2rem;
+    width: 2rem;
+    background-image: url("../imagenes/Pelota-baseball.jpg");
+    background-size: cover;
+    position: relative;
+    right: 4rem;
+    bottom: 2rem;
+    animation-name: pelota;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#Precio-Leon{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+#Nombre-Leon{
+    color: white;
+    font-size: x-large;
+    position: relative;
+    left: 0.5rem;
+}
+#Sayaka{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(255, 0, 212);
+}
+#Sayaka-death{
+    height: 8rem;
+    width: 6rem;
+    background-image: url("../imagenes/Sayaka-death.jpg");
+    background-size: cover;
+    position: relative;
+    left: 15rem;
+    top: 0.3rem;
+    animation-name: Sayaka-death;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#Precio-Sayaka{
+    position: relative;
+    right: 5rem;
+}
+#Nombre-Sayaka{
+    position: relative;
+    right: 4.5rem;
+}
+#Owada{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(255, 0, 212);
+}
+#Owada_execution{
+    height: 6rem;
+    width: 12rem;
+    background-image: url("../imagenes/Owada-execution.jpg");
+    background-size: cover;
+    position: relative;
+    top: 1.5rem;
+    left: 25rem;
+    animation-name: Owada-execution;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+#Celes{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(255, 0, 212);
+}
+#Celes_execution{
+    height: 6rem;
+    width: 12rem;
+    background-image: url("../imagenes/Celes-execution\ \(1\).jpg");
+    background-size: cover;
+    position: relative;
+    top: 1.5rem;
+    left: 12rem;
+    animation-name: Celes-execution;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#Precio-Celes{
+    position: relative;
+    right: 4rem;
+}
+#Nombre-Celes{
+    position: relative;
+    left: 10rem;
+}
+#Mukuro{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: rgb(255, 0, 212);
+}
+#Precio-Mukuro{
+    position: relative;
+    left: 14rem;
+}
+#Nombre-Mukuro{
+    position: relative;
+    right: 16rem;
+}
+#Mukuro-death{
+    height: 6rem;
+    width: 14rem;
+    background-image: url("../imagenes/Mukuro-death\ \(1\).jpg");
+    background-size: cover;
+    position: relative;
+    top: 1.5rem;
+    left: 12rem;
+    animation-name: Mukuro-death;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#Junko1{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: rgb(255, 0, 212);
+}
+#Junko-execution{
+    height: 6rem;
+    width: 12rem;
+    background-image: url("../imagenes/Junko-execution\ \(1\).jpg");
+    background-size: cover;
+    position: relative;
+    top: 1.5rem;
+    left: 12rem;
+    animation-name: Junko-execution;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#Precio-Junko1{
+    position: relative;
+    right: 6rem;
+}
+#Nombre-Junko1{
+    position: relative;
+    left: 10rem;
+}
+#Junko2{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: rgb(255, 0, 212);
+}
+#Junko-bye{
+    height: 6rem;
+    width: 14rem;
+    background-image: url("../imagenes/Junko-bye\ \(1\).jpg");
+    background-size: cover;
+    position: relative;
+    top: 1.5rem;
+    left: 12rem;
+    animation-name: Junko-bye;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+#Precio-Junko2{
+    position: relative;
+    left: 15rem;
+}
+#Nombre-Junko2{
+    position: relative;
+    right: 14rem;
+}
+#Personajes{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: rgb(255, 0, 212);
+}
+#Personajes-sprites{
+    height: 8rem;
+    width: 8rem;
+    background-image: url("../imagenes/Danganronpa-personajes-sprites.jpg");
+    background-size: cover;
+    position: relative;
+    left: 3rem;
+    top: 0.3rem;
+    animation-name: Personajes;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#Precio-Personajes{
+    position: relative;
+    left: 3rem;
+}
+#Nombre-Personajes{
+    position: relative;
+    left: 3.5rem;
+}
